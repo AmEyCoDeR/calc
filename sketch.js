@@ -189,6 +189,10 @@ document.addEventListener('keypress', function(e) {
 	else if(e.charCode === 191 || e.charCode === 111){
         calculator.chooseOperation("÷");
         calculator.updateDisplay();
+	}
+	else if(e.charCode === 47){
+        calculator.chooseOperation("÷");
+        calculator.updateDisplay();
 	}else{
 	console.log("myau");
     }
